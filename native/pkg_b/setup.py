@@ -14,20 +14,7 @@
 
 from setuptools import setup
 
-
 setup(
-    name='example_pkg_b',
-
-    version='1',
-
-    description='',
-    long_description='',
-
-    author='Jon Wayne Parrott',
-    author_email='jonwayne@google.com',
-
-    license='Apache Software License',
-
-    packages=['example_pkg.b'],
-    zip_safe=False,
+    setup_requires=['pbr'],
+    pbr=True,
 )

@@ -1,0 +1,1 @@
+-e git+git@github.com:aarefiev22/sample-namespace-packages.git#egg=example_pkg_a&subdirectory=native/pkg_a
